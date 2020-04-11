@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Lato";
+  src: url(./font/Lato/Lato-Light.ttf); }
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url(./font/Lato/Lato-Regular.ttf); }
+
+@font-face {
+  font-family: "Ailerons Normal";
+  src: url(./font/Ailerons/Ailerons-Typeface.otf); }
+
+.container-fluid {
+  padding: 0 0 0 0; }
+
+.icon {
+  font-size: 4em;
+  color: white;
+  transition: 0.5s; }
+
+.icon:hover {
+  color: #717171;
+  font-size: 5em;
+  transition: 0.5s; }
+
+.page {
+  min-height: 100vh; }
+
+.parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/parallax.png);
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.sobreMi h2 {
+  font-family: Lato;
+  font-size: 4em;
+  color: #0b111a; }
+
+.sobreMi p {
+  font-family: LatoRegular;
+  font-size: 22px;
+  color: #0b111a; }
+  @media only screen and (max-width: 480px) {
+    .sobreMi p {
+      font-size: 18px;
+      height: 40vh;
+      overflow: auto; } }
+
+.sobreMi img {
+  box-shadow: -8px -8px 0px -1px #0b111a; }
+
+.trabajos h2 {
+  font-family: Lato;
+  font-size: 4em;
+  color: #0b111a; }
+
+.trabajos p {
+  font-family: LatoRegular;
+  color: #0b111a;
+  font-size: 22px; }
+
+.trabajos #img {
+  cursor: pointer; }
+
+.item {
+  font-size: 35px;
+  cursor: pointer; }
+
+.item:hover {
+  background-color: rgba(53, 53, 53, 0.226);
+  color: white; }
+
+.habilidades {
+  background-color: #0b111a; }
+  .habilidades h2 {
+    font-family: Lato;
+    font-size: 3em;
+    color: white; }
+
+.contacto {
+  background-color: #0b111a; }
+  .contacto h2 {
+    font-family: Lato;
+    font-size: 4em;
+    color: white; }
+  .contacto p {
+    font-family: LatoRegular;
+    font-size: 20px; }
+  .contacto a img {
+    width: max-content;
+    border-radius: 9px; }
+    @media only screen and (max-width: 480px) {
+      .contacto a img {
+        width: 25%; } }
+  .contacto a img:hover {
+    background-color: #383838; }
+    @media only screen and (max-width: 480px) {
+      .contacto a img:hover {
+        border-radius: 7px; } }
+
+.footer {
+  font-family: LatoRegular;
+  color: #0b111a; }
