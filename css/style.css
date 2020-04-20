@@ -23,6 +23,10 @@
   font-size: 5em;
   transition: 0.5s; }
 
+.iconContact{
+  font-size: 55px;
+}
+
 .page {
   min-height: 100vh; }
 
