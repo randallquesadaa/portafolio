@@ -24,7 +24,7 @@
   transition: 0.5s; }
 
 .iconContact{
-  font-size: 55px;
+  width: 50px;
 }
 
 .page {
@@ -55,11 +55,9 @@
   color: #0b111a; }
   @media only screen and (max-width: 480px) {
     .sobreMi p {
-      font-size: 18px;
-      height: 40vh;
-      overflow: auto; } }
+      font-size: 18px; } }
 
-.sobreMi img {
+.sobreMi #foto {
   box-shadow: -8px -8px 0px -1px #0b111a; }
 
 .trabajos h2 {
@@ -74,6 +72,10 @@
 
 .trabajos #img {
   cursor: pointer; }
+
+.btnSize{
+  width: 88px;
+}
 
 .item {
   font-size: 35px;
@@ -90,27 +92,8 @@
     font-size: 3em;
     color: white; }
 
-.contacto {
-  background-color: #0b111a; }
-  .contacto h2 {
-    font-family: Lato;
-    font-size: 4em;
-    color: white; }
-  .contacto p {
-    font-family: LatoRegular;
-    font-size: 20px; }
-  .contacto a img {
-    width: max-content;
-    border-radius: 9px; }
-    @media only screen and (max-width: 480px) {
-      .contacto a img {
-        width: 25%; } }
-  .contacto a img:hover {
-    background-color: #383838; }
-    @media only screen and (max-width: 480px) {
-      .contacto a img:hover {
-        border-radius: 7px; } }
-
 .footer {
+  background-color: #0b111a;
   font-family: LatoRegular;
-  color: #0b111a; }
+  color: white; }
+
