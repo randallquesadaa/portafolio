@@ -6,9 +6,9 @@
     <title>RANDALL QUESADA</title>
     <link rel="icon" href="./img/favicon.png" type="image/png">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
@@ -171,39 +171,6 @@
     <script src="./js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
-<script>
-
-        $(window).load(function(){
-            $("#loadPage").delay(200).fadeOut("slow");
-        });
-
-    $(document).ready(function () {
-        $("#1").click(function (event) {
-                event.preventDefault();
-                var img = "./img/Tivy/homePreview.webp";
-                var next_imagen = "./img/Tivy/register.webp";
-                var next_extra1 = "./img/Tivy/login.webp";
-                var next_extra2 = "./img/Tivy/perfil.webp";
-                var next_extra3 = "./img/Tivy/home.webp";
-                var next_extra4 = "./img/Tivy/tivy.webp";
-                var next_extra5 = "./img/Tivy/search.webp";
-                var next_extra6 = "./img/Tivy/adminUser.webp";
-                var next_extra7 = "./img/Tivy/adminTivy.webp";
-                var next_title = "TIVY";
-                var next_develop = "Desarrollado en: Laravel";
-                var next_text = "Tivy es una web-app de Meetup, este proyecto fue realizado por un grupo de trabajo de 6 personas las cuales tenían diferentes roles. Fue desarrollada y diseñado desde 0.";
-                var next_repo = "https://github.com/BrandonPorras/TIVY";
-                $("#imgExtra").attr("src", img);
-                $("#imgExtra1").attr("src", next_extra1);
-                $("#imgExtra2").attr("src", next_extra2);
-                $("#imgExtra3").attr("src", next_extra3);
-                $("#title").text(next_title);
-                $("#text").text(next_text);
-                $("#develop").text(next_develop);
-                $("#repo").attr("href", next_repo);
-        });
-    });
-</script>
 </html>
