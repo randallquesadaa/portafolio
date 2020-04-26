@@ -27,6 +27,24 @@
   width: 50px;
 }
 
+@media only screen and (max-width: 480px) {
+  .iconContact{
+    width: 42px;
+  } }
+
+
+#descarga{
+  background-color: #0b111a;
+  border-radius: 4px;
+  width: 200px;
+  height: 45px;
+}
+
+#descarga a{
+  text-decoration: none;
+  color: white;
+}
+
 .page {
   min-height: 100vh; }
 
