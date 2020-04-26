@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+
     <div class="container-fluid p-0">
         <section>
             <div class="parallax d-flex justify-content-center align-items-center">
                 <div class="container">
-                    <img class="img-fluid wow fadeIn delay-1s" src="./img/logo.png" alt="">
+                    <img class="img-fluid wow fadeIn delay-1s" src="./img/logo.webp" alt="">
                 </div>
                 <div id="particles-js" class="particulas"></div>
             </div>
@@ -27,7 +28,7 @@
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="col d-flex justify-content-center">
-                    <img id="foto" class="img-fluid wow animated fadeIn my-5" src="./img/foto.png" alt="">
+                    <img id="foto" class="img-fluid wow animated fadeIn my-5" src="./img/foto.webp" alt="">
                 </div>
                 <div class="col-lg-6 col-xs-12 d-flex align-items-center">
                     <div class="row">
@@ -88,7 +89,7 @@
 
             <div class="row my-3">
                 <div class="col wow animated fadeIn px-lg-5">
-                    <img id="img" class="img-fluid" src="./img/Tivy/homePreview.jpg" alt="" data-toggle="modal" data-target="#exampleModalScrollable">
+                    <img id="img" class="img-fluid" src="./img/Tivy/homePreview.webp" alt="" data-toggle="modal" data-target="#exampleModalScrollable">
                 </div>
 
                 <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
@@ -103,28 +104,28 @@
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img id="imgExtra" src="./img/Tivy/register.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra" src="./img/Tivy/register.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra1" src="./img/Tivy/login.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra1" src="./img/Tivy/login.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra2" src="./img/Tivy/perfil.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra2" src="./img/Tivy/perfil.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra3" src="./img/Tivy/home.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra3" src="./img/Tivy/home.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra4" src="./img/Tivy/tivy.png" class="d-block w-100" alt="...">
+                                    <img id="imgExtra4" src="./img/Tivy/tivy.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra5" src="./img/Tivy/search.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra5" src="./img/Tivy/search.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra6" src="./img/Tivy/adminUser.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra6" src="./img/Tivy/adminUser.webp" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img id="imgExtra7" src="./img/Tivy/adminTivy.jpg" class="d-block w-100" alt="...">
+                                    <img id="imgExtra7" src="./img/Tivy/adminTivy.webp" class="d-block w-100" alt="...">
                                 </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -173,18 +174,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 <script>
+
+        $(window).load(function(){
+            $("#loadPage").delay(200).fadeOut("slow");
+        });
+
     $(document).ready(function () {
         $("#1").click(function (event) {
                 event.preventDefault();
-                var img = "./img/Tivy/homePreview.jpg";
-                var next_imagen = "./img/Tivy/register.jpg";
-                var next_extra1 = "./img/Tivy/login.jpg";
-                var next_extra2 = "./img/Tivy/perfil.jpg";
-                var next_extra3 = "./img/Tivy/home.jpg";
-                var next_extra4 = "./img/Tivy/tivy.png";
-                var next_extra5 = "./img/Tivy/search.jpg";
-                var next_extra6 = "./img/Tivy/adminUser.jpg";
-                var next_extra7 = "./img/Tivy/adminTivy.jpg";
+                var img = "./img/Tivy/homePreview.webp";
+                var next_imagen = "./img/Tivy/register.webp";
+                var next_extra1 = "./img/Tivy/login.webp";
+                var next_extra2 = "./img/Tivy/perfil.webp";
+                var next_extra3 = "./img/Tivy/home.webp";
+                var next_extra4 = "./img/Tivy/tivy.webp";
+                var next_extra5 = "./img/Tivy/search.webp";
+                var next_extra6 = "./img/Tivy/adminUser.webp";
+                var next_extra7 = "./img/Tivy/adminTivy.webp";
                 var next_title = "TIVY";
                 var next_develop = "Desarrollado en: Laravel";
                 var next_text = "Tivy es una web-app de Meetup, este proyecto fue realizado por un grupo de trabajo de 6 personas las cuales tenían diferentes roles. Fue desarrollada y diseñado desde 0.";
