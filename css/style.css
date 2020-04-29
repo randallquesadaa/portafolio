@@ -13,6 +13,11 @@
 .container-fluid {
   padding: 0 0 0 0; }
 
+.idioma{
+  border-radius: 0 0 0 8px;
+  z-index: 500;
+}
+
 .icon {
   font-size: 5em;
   color: white;
