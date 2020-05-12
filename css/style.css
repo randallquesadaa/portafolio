@@ -14,7 +14,7 @@
   padding: 0 0 0 0; }
 
 .idioma{
-  border-radius: 0 0 0 8px;
+  border-radius: 0 0 0 4px;
   z-index: 500;
 }
 
@@ -116,5 +116,9 @@
 
 .footer {
   background-color: #0b111a;
+  font-size: 16px;
   font-family: LatoRegular;
   color: white; }
+.footer h1{
+  font-size: 16px;
+}
